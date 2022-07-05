@@ -1,6 +1,9 @@
 ## dbt with Databricks
 
 In this tutorial, we will create transformations using dbt for data stored in Databricks.
+Read the full article [here]().
+
+![Tables](/assets/zones.png)
 
 ### 0. Prereqs
 
@@ -78,6 +81,6 @@ $ dbt docs serve
 $ dbt test
 ```
 
-## References
+## Reference
 
 [dbt with Databricks](https://docs.databricks.com/integrations/prep/dbt.html#requirements)
