@@ -1,0 +1,10 @@
+my_dbt_demo:
+  outputs:
+    dev:
+      host: <HOST>.azuredatabricks.net
+      http_path: <PATH>
+      schema: appschema
+      threads: 1
+      token: <TOKEN>
+      type: databricks
+  target: dev
