@@ -1,7 +1,7 @@
 ## dbt with Databricks
 
 In this tutorial, we will create transformations using dbt for data stored in Databricks.
-Read the full article [here]().
+Read the full article [here](https://rxhl.notion.site/dbt-vs-Delta-Live-Tables-42e732a8c4ba450595897eb73832ce95).
 
 ![Tables](/assets/zones.png)
 
@@ -33,7 +33,7 @@ $ pipenv shell
 (dbt-databricks) $ dbt --version
 ```
 
-### 2. Preparing seed data in Databricks
+### 2. Prepare seed data in Databricks
 
 To create some real transformations, we need to provide seed (raw) data to dbt.
 We'll manually create a few raw tables in Databricks using scripts available in the `databricks_scripts` directory.
